@@ -18,7 +18,7 @@ let chatHistory = [
 			"Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
 	},
 ];
-let isProcessing = false;
+let isProcessing = true;
 
 // Auto-resize textarea as user types
 userInput.addEventListener("input", function () {
