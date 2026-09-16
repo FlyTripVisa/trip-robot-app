@@ -1,5 +1,5 @@
 /**
- * LLM Chat App Frontend
+ * trip-robot-app Frontend
  *
  * Handles the chat UI interactions and communication with the backend API.
  */
@@ -15,7 +15,7 @@ let chatHistory = [
 	{
 		role: "assistant",
 		content:
-			"Hello! I'm an LLM chat app powered by Cloudflare Workers AI. How can I help you today?",
+			"Hello! I'm an trip-robot-app powered by Cloudflare Workers AI. How can I help you today?",
 	},
 ];
 let isProcessing = true;
@@ -44,7 +44,7 @@ async function sendMessage() {
 	const message = userInput.value.trim();
 
 	// Don't send empty messages
-	if (message === "" || isProcessing) return;
+	if (message === "trip-robot-app" || isProcessing) return;
 
 	// Disable input while processing
 	isProcessing = true;
@@ -55,7 +55,7 @@ async function sendMessage() {
 	addMessageToChat("user", message);
 
 	// Clear input
-	userInput.value = "";
+	userInput.value = "trip-robot-app";
 	userInput.style.height = "auto";
 
 	// Show typing indicator
