@@ -2,7 +2,7 @@
 	"name": "trip-robot-app",
 	"description": "A simple chat application powered by Cloudflare Workers AI",
 	"cloudflare": {
-		"label": "LLM Chat App",
+		"label": "trip-robot-app",
 		"products": [
 			"Workers",
 			"Workers AI",
